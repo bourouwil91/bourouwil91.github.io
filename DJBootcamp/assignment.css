@@ -1,0 +1,30 @@
+nav{
+    background-color: black;
+    padding-bottom:5px;
+    width: 100%;
+    text-decoration-color: white;
+}
+nav ul li:hover{
+            background-color: orange;
+
+}
+ul{ margin-left: 400px;
+    list-style-type: none;
+}
+a{ text-decoration-line: none;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 50px;
+    
+}
+img{border-style: solid;
+    
+}
+p{ text-align: center;
+    color: white;
+    border: 2px solid black;
+    padding: 1%;
+    background-color: black;
+}

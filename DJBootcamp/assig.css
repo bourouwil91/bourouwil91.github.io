@@ -1,0 +1,29 @@
+
+        dl{
+            text-align: center;
+         }
+        u{
+            color: blue;
+        }
+        a{ color: hotpink;}
+        .myDiv{
+            border: 2px solid red;
+        }
+        td{
+            width: 100px; text-align: center;
+        }
+        #borderimag{
+                    border: 2px solid transparent;
+                    padding: 2px;
+                    border-color: yellow;
+        }
+        #fdiv{
+            border: 2px solid yellow;
+            width: 28%;
+        }
+        
+        .colum{
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
