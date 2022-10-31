@@ -1,0 +1,112 @@
+/*body{
+    background-color:lightblue;
+}*/
+body{
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:medium;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.mainbox
+        {
+            border: 2px solid black;
+            background-color: palevioletred;
+            height: 550px;
+}
+.tlogo1{
+    width: 200px;
+    height: 100px;
+float: left;
+margin-left: 5px;
+}
+.tlogo2{
+    width: 200px;
+    height: 100px;
+    float: right;
+    margin-right: 5px;
+    }
+    .img1{
+        width: 300px;
+        height: 200px;
+    }
+.mainsub1 { 
+    width: 600px;
+    height: 270px;
+    float: left;
+    margin: 5px;
+    padding: 2px;
+}
+.mainsub2{
+    width:860px;
+    height: 230px;
+    float: left;
+    margin: 5px;
+    padding-top: 50px;
+}
+.mainsub3{
+    width:8=600px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.mainsub4{ width: 600px;
+    height: 250px;
+    float: left;
+    margin: 5px;
+    padding-left: 200px;
+    }
+table{
+    border: 2px solid black;
+
+}
+.logo1{
+    width: 80px;
+    height: 80px;
+}
+.logo2{
+    width: 80px;
+    height: 80px;
+}
+.logo3{
+    width: 80px;
+    height: 80px;
+}
+#tdcolor{
+    background-color: green;
+}
+#tdcolor1{
+    background-color:pink;
+}
+#trfont{
+    font-size: x-large;
+
+}
+.myul {
+    list-style-type: none;
+    margin-left: 200px;
+    padding:0;
+
+}
+
+.myLi  {
+    display: inline;
+    padding: 20px;
+    font-size: xx-large;
+
+}
+
+.myp{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
