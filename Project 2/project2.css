@@ -1,0 +1,438 @@
+body{
+    background-color: bisque;
+}
+.headerrow{
+    background-color: bisque;
+    height: 100px;
+}
+.logobox{
+    background-color: bisque;
+    height: 100px;
+    width: 30%;
+    float: left;
+    animation: logo 2s infinite;
+}
+@keyframes logo {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.titlebox{
+    width: 70%;
+    height: 100px;
+    float: left;
+    animation: title1 3s infinite;
+}
+@keyframes totle1 {
+    0%{
+        transform: scale();
+    }
+    100%{
+
+    }
+    
+}
+.logobox img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
+.titlebox h1{
+    color: goldenrod;
+    margin-top: 0;
+    font-family: cursive;
+    font-style: italic;
+    animation: textb1 4s infinite;
+}
+@keyframes textb1 {
+    0%{ transform: scale(0);}
+   
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.titlebox h2{
+    margin-top: 0;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: black;
+    animation: textb2 3s infinite;
+}
+@keyframes textb2 {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.slideshowbox{
+    width: 100%; 
+    height: 50px;
+   margin-top: 0;
+   background-color: darkolivegreen;
+}
+.slidestitle p{
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    background-color:chocolate ;
+    
+}
+.slidestitle p {
+    padding-top: 10px;
+    color: black;
+}
+
+.herobox-image{
+    height: 400px;
+    background-color: black;
+    position: relative;
+}
+
+.contentbox1 p{
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 345px;
+    height: 100px;
+    float: left;
+    color: white;
+    background-color: cadetblue;
+    border: 5px solid white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.contentbox2 img{
+    width: 100%;
+    height: 100%;
+}
+.contentbox2{
+    float: left;
+    height: 400px;
+    width: 900px;
+    margin-left: 100px;
+
+}
+
+.productrow{
+    height: 500px;
+    margin: 2px;
+    position: relative;
+
+}
+.productbox1{
+    width: 42%;
+    height: 100%;
+    float: left;
+    margin-right: 90px;
+    margin-left: 20px;
+    position: relative;
+}
+.productbox1 img{
+    width: 630px;
+    height: 500px;
+    /*filter: brightness(50%);*/
+} 
+.productbox1 p{
+    border: 1px solid greenyellow;
+    padding: 30px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.productbox2{
+    border: 5px solid rgba(128, 128, 128, 0.675);
+    width: 42%;
+    height: 99%;
+    float: left;
+    margin-left: 80px;
+    background-color: rgba(128, 128, 128, 0.675);    
+}
+.productbox2 p{
+    color: darkolivegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: left;
+    padding-left:30px;
+    
+
+}
+
+.productbox2 h1{
+    color: darkolivegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    
+
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    color: darkgoldenrod;
+}
+hr{
+    border: solid darkgoldenrod;
+}
+.product{
+    /*border: 1px solid black;*/
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.giftposi{
+    position: relative;
+}
+
+
+.productCol1{
+    width: 30%;
+    height: 450px;
+    /*border: 3px solid chartreuse;*/
+    float: left;
+    margin: 20px;
+}
+.productCol2{
+    width: 30%;
+    height: 450px;
+    /*border: 3px solid chartreuse;*/
+    float: left;
+    margin: 20px;
+}
+.productCol3{
+    width: 30%;
+    height: 450px;
+    /*border: 3px solid chartreuse;*/
+    float: left;
+    margin: 20px;
+}
+.productCol1 img{
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 100px;
+   
+}
+.productCol2 img{
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 100px;
+   
+}
+
+.productCol3 img{
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 100px;
+   
+}
+button{
+    background-color: black;
+    size: 24px;
+    padding: 10px;
+    margin-left: 165px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.productCol1 h2,h3{
+   text-align: center;
+   
+}
+.productCol2 h2,h3{
+    text-align: center;
+    
+ }
+ .productCol3 h2,h3{
+    text-align: center;
+    
+ }
+.afteraddprd1{
+    width: 50%;
+    background-color: white;
+    border-radius: 1px solid white;
+    height: 500px;
+    margin-left: 300px;
+    opacity: 0;
+    pointer-events:none;
+    position: absolute;
+}
+
+.afteraddprd1:target{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+.afteraddgift1{
+    width: 50%;
+    background-color: white;
+    border-radius: 1px solid white;
+    height: 500px;
+    margin-left: 300px;
+    margin-bottom: 1000px;
+    opacity: 0;
+    pointer-events:none;
+    position: absolute;
+}
+
+.afteraddgift1:target{
+    opacity: 1;
+    pointer-events: all;
+}
+.addshow hr{
+    border: solid grey;
+    width: 700px;
+}
+.addshow img{
+    height: 150px;
+}
+
+.addb1 {
+            margin-left: 30px;
+            margin-right: 572px;
+            float: left;
+
+}
+.addb2{
+            float: left;
+            margin-top: 10px;
+}
+.addb2 a{
+    text-decoration-line: none;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+}
+.cel1{
+    float: left;
+    margin-right: 200px;
+    margin-top: 5px;
+}
+.cel2{
+    float: left;
+}
+.cel3{
+    margin-top: 220px;
+    width: 760px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 1px solid gray;
+
+    
+}
+
+.cel3 hr{
+    border: solid white;
+    width: 700px;
+}
+
+.cel3 p{
+    margin-left: 30px;
+}
+
+.cel3 button{
+    background-color: white;
+    size: 24px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.cel3 a{
+    color: black;
+    text-decoration: none;
+}
+
+.cel3 button:hover{
+    background-color: rebeccapurple;
+}
+.footerbox{
+    background-color:black;
+    border: 3px solid black;
+    margin: 20px;
+    height: 500px;
+    color: white;
+
+    
+}
+.footerCell1{
+    width: 20%;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.footerCell2{
+    width: 20%;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+.footerCell3{
+    width: 20%;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+.footerCell4{
+    width: 20%;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+h5{
+    margin: 0px;
+    text-align: center;
+    font-style: oblique;
+    font-size: medium;
+}
+
+#text{
+    text-align: center;
+    margin-top: 10px;
+}
+#line{
+    border: solid white;
+    width: 90%;
+    margin-top: 80px;
+}
+.socialfollow{
+border-radius: 2px solid yellow;
+    
+    height: 100px;
+}
+.socialfollow h6{
+    margin-left: 1000px;
+}
+.socialfollow img{
+    width: 40px;
+    padding: 7px;
+}
+.posi{
+    margin-left: 1030px;
+}
+.footerbox p{
+    margin-top: 150px;
+    text-align: center;
+}
